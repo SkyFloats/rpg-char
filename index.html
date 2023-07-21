@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Apresentação de Personagem</title>
+
+        <link rel="stylesheet" href="./src/css/style.css">
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="logo" src="./src/imagens/svg.png" alt="Logo RPG">
+        </header>
+
+        <main class="selecao-de-personagens">
+            <section class="personagens">
+                <h1 class="titulo">Selecione um personagem</h1>
+                <ul class="lista-de-personagens">
+                    <li class="personagem selecionado" id="vupus" data-name="Vupus Vupus" data-description="Um antigo elfo da floresta, que se tornou um halfling e gosta de ajudar os outros">
+                        <img src="./src/imagens/icon-vupus.jpg" alt="Personagem Vupus"
+                        />
+                    </li>
+                    <li class="personagem" id="gojo" data-name="Satoru Gojo" data-description="Um carismatico e esperto meio-elfo que adquiriu poderes do vazio e agora usar para o bem dos outros">
+                        <img src="./src/imagens/icon-gojo.jpg" alt="Personagem Gojo"
+                        />
+                    <li class="personagem" id="auril" data-name="Auril'lian" data-description="Um experimento que deu certo da união de um Fiend e uma Fada e um elfo que agora busca entender o que realmente é">
+                        <img src="./src/imagens/icon-auril.jpg" alt="Personagem Auril'lian"
+                        />
+                    <li class="personagem" id="sinbad" data-name="Sinbad" data-description="Um orfão marinheiro que busca desbravar o mundo usando de seus conhecimentos de esgrimas e magia">
+                        <img src="./src/imagens/icon-sinbad.jpg" 
+                        alt="Personagem Sinbad"
+                        />
+                    
+                </ul>
+            </section>
+            <section class="personagem-selecionado">
+                <img 
+                class="personagem-grande" 
+                src="./src/imagens/full-gojo.png" 
+                alt="Personagem Selecionado"
+                />
+
+                <div class="informacoes-personagem">
+                    <h2 class="nome-personagem"
+                    id="nome-personagem">Vupus</h2>
+                    <p class="descricao-personagem"
+                    id="descricao-personagem">
+                        Um antigo elfo da floresta, que se tornou um halfling e gosta de ajudar os outros
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
